@@ -1,7 +1,7 @@
 (ns japiirainen.aoc-2015.01
   (:require [clojure.string :refer [trim]]))
 
-(def input (->> (slurp "inputs/01") trim))
+(def input (->> (slurp "inputs/01.txt") trim))
 
 (defn find-basement [input]
   (letfn [(go [n [c & rest]]
