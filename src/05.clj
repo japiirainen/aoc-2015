@@ -1,8 +1,5 @@
 (ns japiirainen.aoc-2015.05
-  (:require [clojure.string :refer [split includes?]]))
-
-(defn lines [s]
-  (split s #"\n"))
+  (:require [clojure.string :refer [split-lines includes?]]))
 
 (defn valid1? [s]
   (and
@@ -18,5 +15,5 @@
      (->> s (partition 2 1) double-pairs?))))
 
 
-(->> (slurp "inputs/05.txt") lines (filter valid1?) count (println "Part 1:"))
-(->> (slurp "inputs/05.txt") lines (filter valid2?) count (println "Part 2:"))
+(->> (slurp "inputs/05.txt") split-lines (filter valid1?) count (println "Part 1:"))
+(->> (slurp "inputs/05.txt") split-lines (filter valid2?) count (println "Part 2:"))
