@@ -12,5 +12,5 @@
 (defn ribbon [[l w h]]
   (+ (* l w h) (* 2 (- (+ l w h) (max l w h)))))
 
-(->> (slurp "inputs/02.txt") parse (map area) (reduce + 0) (println "Part 1:"))
-(->> (slurp "inputs/02.txt") parse (map ribbon) (reduce + 0) (println "Part 2:"))
+(->> (slurp "inputs/02.txt") parse (map area) (reduce +) (println "Part 1:"))
+(->> (slurp "inputs/02.txt") parse (map ribbon) (reduce +) (println "Part 2:"))
