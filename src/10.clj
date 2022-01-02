@@ -14,5 +14,5 @@
 
 (defn n-times [n input] (nth (iterate expand input) n))
 
-(->> input (n-times 40) count (prn "Part 1:"))
-(->> input (n-times 50) count (prn "Part 1:"))
+(->> input (n-times 40) count (println "Part 1:"))
+(->> input (n-times 50) count (println "Part 1:"))

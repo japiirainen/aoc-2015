@@ -38,5 +38,5 @@
                k (range (- 100 i j))]
            (f [i j k (- 100 i j k)] input))))
 
-(->> input (max-score score) (prn "Part 1:"))
-(->> input (max-score cal-score) (prn "Part 2:"))
+(->> input (max-score score) (println "Part 1:"))
+(->> input (max-score cal-score) (println "Part 2:"))

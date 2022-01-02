@@ -20,5 +20,5 @@
     (integer? o) o
     :else 0))
 
-(->> JSON sum-json-1 (prn "Part 1:"))
-(->> JSON sum-json-2 (prn "Part 2:"))
+(->> JSON sum-json-1 (println "Part 1:"))
+(->> JSON sum-json-2 (println "Part 2:"))

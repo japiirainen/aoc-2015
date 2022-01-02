@@ -40,5 +40,5 @@
               (read-string %)
               (apply-gates v2 (insts %))))))
 
-(->> "a" v1 (prn "Part one:"))
-(->> "a" v2 (prn "Part two:"))
+(->> "a" v1 (println "Part one:"))
+(->> "a" v2 (println "Part two:"))

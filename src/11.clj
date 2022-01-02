@@ -30,5 +30,5 @@
   (->> start (iterate next-pw) rest (filter valid-pw) first))
 
 (let [[_ p1 p2] (->> (slurp "inputs/11.txt") (iterate find-valid) (take 3))]
-  (prn "Part 1" p1)
-  (prn "Part 2" p2))
+  (println "Part 1" p1)
+  (println "Part 2" p2))

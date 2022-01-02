@@ -18,5 +18,5 @@
   (letfn [(isExpand [x] (str/includes? "\\\"" (str x)))]
     (+ 2 (count (filter isExpand s)))))
 
-(->> lines (map p1) (reduce +) (- (->> lines (map count) (reduce +))) (prn "Part 1:"))
-(->> lines (map p2) (reduce +) (prn "Part 1:"))
+(->> lines (map p1) (reduce +) (- (->> lines (map count) (reduce +))) (println "Part 1:"))
+(->> lines (map p2) (reduce +) (println "Part 1:"))

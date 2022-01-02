@@ -42,5 +42,5 @@
    (> (valid-things "goldfish") (get things "goldfish" 0))
    (valid-p1 ["" (dissoc things "cats" "trees" "pomeranians" "goldfish")])))
 
-(->> input (find-first valid-p1) (prn "Part 1:"))
-(->> input (find-first actually-valid) (prn "Part 2:"))
+(->> input (find-first valid-p1) (println "Part 1:"))
+(->> input (find-first actually-valid) (println "Part 2:"))

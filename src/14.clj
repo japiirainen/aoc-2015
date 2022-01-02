@@ -29,5 +29,5 @@
      (recur (inc t) (give-points t points input) input)))
   ([input] (p2 1 (repeat (count input) 0) input)))
 
-(->> input (map #(dist-after-s 2503 %)) (apply max) (prn "Part 1:"))
-(->> input p2 (prn "Part 2:"))
+(->> input (map #(dist-after-s 2503 %)) (apply max) (println "Part 1:"))
+(->> input p2 (println "Part 2:"))

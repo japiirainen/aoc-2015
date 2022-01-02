@@ -22,5 +22,5 @@
 (defn find-dist [f]
   (->> cities combo/permutations (map distance) (apply f)))
 
-(->> min find-dist (prn "Part 1:"))
-(->> max find-dist (prn "Part 1:"))
+(->> min find-dist (println "Part 1:"))
+(->> max find-dist (println "Part 1:"))

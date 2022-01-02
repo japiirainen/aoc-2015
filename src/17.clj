@@ -9,5 +9,5 @@
 
 (def valid (->> input powerset (filter #(= 150 (reduce + %)))))
 
-(->> valid count (prn "Part 1:"))
-(->> valid (map count) frequencies (apply min-key first) second (prn "Part 2:"))
+(->> valid count (println "Part 1:"))
+(->> valid (map count) frequencies (apply min-key first) second (println "Part 2:"))
