@@ -35,4 +35,4 @@
   (if (won-battle dmg boss-hp boss-dmg) 0 cost))
 
 (->> p1 (find-gloal min) (println "Part 1:"))
-(->> p2 (find-gloal max) (println "Part 1:"))
+(->> p2 (find-gloal max) (println "Part 2:"))
