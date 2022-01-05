@@ -2,7 +2,7 @@
 
 Advent of code 2015 solutions. Solved in clojure.
 
-<img width="656" alt="Screenshot 2021-12-27 at 12 45 55" src="https://user-images.githubusercontent.com/61139818/147464383-773d18f1-598f-4d23-87ae-12ee87341a53.png">
+![Screenshot 2022-01-05 at 21 11 15](https://user-images.githubusercontent.com/61139818/148275161-99ca67be-cc67-461e-935c-ef492a5a0fb3.png)
 
 ## Usage
 ```sh
