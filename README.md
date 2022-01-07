@@ -12,3 +12,5 @@ clj -M src/DAY.clj
 ## Other years
 - [2021](https://github.com/japiirainen/aoc-2021/) in Haskell λ
 
+## Blog
+I wrote a short [***blogpost***](https://japiirainen.com/posts/thoughts-on-clojure.html) sharing my thoughts on using clojure for aoc puzzles.
